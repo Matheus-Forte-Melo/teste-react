@@ -41,7 +41,7 @@ python manage.py runserver
 ```
 
 > **Importante 1**: PRONTO. Mantenha este terminal aberto! Fechar o terminal interromperá o servidor e causará erros na aplicação.
-> **Importante 2**: **Se houver algum erro de dependência de pacotes no Python** (ou se não tiver clonado o .venv), crie um ambiente virtual com `python -m venv .venv` e coloque o comando (a partir do caminho `backend/`) `pip install -r requirements.txt`. 
+> **Importante 2**: **Se houver algum erro de dependência de pacotes no Python** (ou se não tiver clonado o .venv), crie um ambiente virtual com `python -m venv .venv`, ative-o e coloque o comando (a partir do caminho `backend/`) `pip install -r requirements.txt`. 
 > > Caso isso não resolva, certifique-se de que ativou o ambiente virtual Python com `./.venv/Scripts/activate`.
 
 ---
