@@ -73,7 +73,7 @@ Agora, copie esse [endereço](http://localhost:5173/) e cole no seu navegador. S
 
 1. Aguarde a página carregar (se necessário).
 2. Clique em **LOGIN** (não é necessário inserir usuário e senha, pois não há autenticação).
-3. Você verá a listagem contendo **duas empresas**.
+3. Você verá a listagem contendo **duas empresas** (se não aparecer, recarregue a página).
 4. Para cadastrar uma nova empresa:
    - Clique no botão **CADASTRAR** no lado direito da tela.
    - O sistema valida **CNPJs reais**, então utilize um CNPJ válido.
