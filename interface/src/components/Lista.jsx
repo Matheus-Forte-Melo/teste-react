@@ -1,6 +1,6 @@
 import { Trash2, Search } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { deletarEmpresa } from "../services/api"; // Importando a função de deletar
+import { deletarEmpresa } from "../services/api"; 
 
 const EmpresaItem = ({ empresa, onDelete }) => (
   <div className="flex text-b-text justify-between p-5 bg-bg-header rounded-lg shadow-md">
@@ -31,7 +31,7 @@ const EmpresaItem = ({ empresa, onDelete }) => (
     <div className="icons flex items-center gap-1.5">
         <Trash2 
           className="stroke-red-500 cursor-pointer"
-          onClick={() => onDelete(empresa.id)} // Chama a função onDelete passando o id da empresa
+          onClick={() => onDelete(empresa.id)} 
         />
     </div>
   </div>
@@ -86,7 +86,7 @@ function Lista({ empresas }) {
           <EmpresaItem 
             key={empresa.id} 
             empresa={empresa} 
-            onDelete={handleDelete} // Passando a função handleDelete como prop onDelete
+            onDelete={handleDelete} 
           />
         ))}
       </div>

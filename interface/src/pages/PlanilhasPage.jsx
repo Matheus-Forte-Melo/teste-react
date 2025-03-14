@@ -4,9 +4,9 @@ import Header from "../components/Header"
 
 function PlanilhasPage () {
     return (
-        <div className="relative h-screen flex flex-col">
+        <div className=" h-screen flex flex-col">
             <Header />
-            <main className="h-full w-full  flex bg-white">
+            <main className="relative h-full w-full  flex bg-white">
                 <Aside />
                 <ListaPlanilhas 
                 planilhas={[
