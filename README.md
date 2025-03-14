@@ -24,13 +24,13 @@ Dentro do repositório clonado, você verá duas pastas principais:
 - **interface/** (Frontend)
 - **backend/** (Backend)
 
-Abra a pasta **teste-react** no **VSCode** e abra **dois terminais** ou utilize diretamente o **PowerShell**.
+Abra a pasta **teste-react** no **VSCode** e abra **dois terminais** ou abra dois terminais **PowerShell** diretamente.
 
 ---
 
 ## Iniciando o Backend
 
-Com o terminal aberto na pasta **teste-react/**, execute os seguintes comandos:
+Com o terminal aberto na pasta **teste-react/**, execute os seguintes comandos (uma linha por vez):
 
 ```sh
 cd backend
@@ -45,7 +45,7 @@ python manage.py runserver
 
 ## Iniciando o Frontend
 
-Com o segundo terminal aberto na pasta **teste-react/**, execute os seguintes comandos:
+Com o segundo terminal aberto na pasta **teste-react/**, execute os seguintes comandos (uma linha por vez):
 
 ```sh
 cd interface
