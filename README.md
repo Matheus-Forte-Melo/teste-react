@@ -40,7 +40,7 @@ python manage.py runserver
 ```
 
 > **Importante 1**: Mantenha este terminal aberto! Fechar o terminal interromperá o servidor e causará erros na aplicação.
-> > **Importante 2**: Se houver algum erro de dependência de pacotes no Python, coloque o comando (a partir do caminho `backend/`) `pip install requirements.txt`.
+> > **Importante 2**: Se houver algum erro de dependência de pacotes no Python (ou se não tiver clonado o .venv), coloque o comando (a partir do caminho `backend/`) `pip install -r requirements.txt`.
 
 ---
 
