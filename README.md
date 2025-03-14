@@ -59,7 +59,7 @@ Se tudo estiver correto, deverá aparecer no terminal:
 Local: http://localhost:5173/
 ```
 
-Agora, copie esse endereço e cole no seu navegador.
+Agora, copie esse [endereço](http://localhost:5173/) e cole no seu navegador.
 
 > **Nota**: O terminal do **Backend deve continuar rodando** enquanto a aplicação estiver em uso.
 
