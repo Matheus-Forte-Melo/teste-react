@@ -62,7 +62,7 @@ Se tudo estiver correto, deverá aparecer no terminal:
 Local: http://localhost:5173/
 ```
 
-Agora, copie esse [endereço](http://localhost:5173/) e cole no seu navegador.
+Agora, copie esse [endereço](http://localhost:5173/) e cole no seu navegador. Se não funcionar, atente-se ao número da porta (`5173`) se ele for diferente, sem problemas, você deverá acessar a rota com o numero disposto no terminal.
 > Continue lendo abaixo para entender como funciona o fluxo do sistema. Neste momento, se tudo deu certo, você deve estar se deparando com uma tela de Login.
 
 > **Nota**: O terminal do **Backend deve continuar rodando** enquanto a aplicação estiver em uso.
