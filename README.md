@@ -39,7 +39,8 @@ cd gerenciador_empresas
 python manage.py runserver
 ```
 
-> **Importante**: Mantenha este terminal aberto! Fechar o terminal interromperá o servidor e causará erros na aplicação.
+> **Importante 1**: Mantenha este terminal aberto! Fechar o terminal interromperá o servidor e causará erros na aplicação.
+> > **Importante 2**: Se houver algum erro de dependência de pacotes no Python, coloque o comando (a partir do caminho `backend/`) `pip install requirements.txt`.
 
 ---
 
