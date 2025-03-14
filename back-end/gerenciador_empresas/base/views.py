@@ -15,7 +15,7 @@ def pegar_empresas(request):
 
 @api_view(['GET'])
 def pegar_empresa(request):
-    return Response({"Você é viado": "É mesmo"})
+    pass
 
 @api_view(['POST'])
 def adicionar_empresa(request):
@@ -60,4 +60,4 @@ def deletar_empresa(request, pk):
 
 @api_view(['GET'])
 def atualizar(request):
-    return Response({"Você é viado": "É mesmo"})
+    pass
