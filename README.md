@@ -89,6 +89,13 @@ Na **sidebar**, apenas os **três primeiros** ícones levam a páginas distintas
 
 ---
 
+## Imagens do Sistema
+
+![image](https://github.com/user-attachments/assets/ecd629a6-7881-499c-a190-a629a6940f2e)
+![image](https://github.com/user-attachments/assets/2275289c-7295-4591-b4d4-7c98c64418e2)
+![image](https://github.com/user-attachments/assets/c728b71b-e0d8-4a9b-a946-9ea4c6c1c971)
+
+
 ## Observação Final
 
 - Nos locais onde deveriam estar os **logos** do sistema, aparece apenas um **placeholder cinza** com "logo" escrito dentro.
@@ -96,5 +103,4 @@ Na **sidebar**, apenas os **três primeiros** ícones levam a páginas distintas
 
 ---
 
-Pronto! Agora você viu tudo que foi solicitado.
 
