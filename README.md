@@ -24,23 +24,25 @@ Dentro do repositório clonado, você verá duas pastas principais:
 - **interface/** (Frontend)
 - **backend/** (Backend)
 
-Abra a pasta **teste-react** no **VSCode** e abra **dois terminais** ou abra dois terminais **PowerShell** diretamente.
+> Abra a pasta **teste-react** no **VSCode** e abra **dois terminais** distintos, **OU** se preferir, abra dois terminais distintos no **PowerShell** e vá até o local do repositório clonado.
+> Certifique-se de que os terminais estão no local do repositório. Se não estiver, use `cd` para navegar até ele.
 
 ---
 
 ## Iniciando o Backend
 
-Com o terminal aberto na pasta **teste-react/**, execute os seguintes comandos (uma linha por vez):
+Com o primeiro terminal aberto na pasta **teste-react/**, execute os seguintes comandos (uma linha por vez):
 
 ```sh
-cd backend
-python ./.venv/Scripts/activate
+cd back-end
+./.venv/Scripts/activate
 cd gerenciador_empresas
 python manage.py runserver
 ```
 
-> **Importante 1**: Mantenha este terminal aberto! Fechar o terminal interromperá o servidor e causará erros na aplicação.
-> > **Importante 2**: Se houver algum erro de dependência de pacotes no Python (ou se não tiver clonado o .venv), coloque o comando (a partir do caminho `backend/`) `pip install -r requirements.txt`.
+> **Importante 1**: PRONTO. Mantenha este terminal aberto! Fechar o terminal interromperá o servidor e causará erros na aplicação.
+> **Importante 2**: **Se houver algum erro de dependência de pacotes no Python** (ou se não tiver clonado o .venv), crie um ambiente virtual com `python -m venv .venv`, ative-o e coloque o comando (a partir do caminho `backend/`) `pip install -r requirements.txt`. 
+> > Caso isso não resolva, certifique-se de que ativou o ambiente virtual Python com `./.venv/Scripts/activate`.
 
 ---
 
@@ -50,7 +52,7 @@ Com o segundo terminal aberto na pasta **teste-react/**, execute os seguintes co
 
 ```sh
 cd interface
-npm install # Certifique-se que tens Node.js e npm instalados e configurados
+npm install # Essa etapa demora alguns segundos, se der algum erro, ertifique-se que tens Node.js e npm instalados e configurados.
 npm run dev
 ```
 
@@ -60,7 +62,8 @@ Se tudo estiver correto, deverá aparecer no terminal:
 Local: http://localhost:5173/
 ```
 
-Agora, copie esse [endereço](http://localhost:5173/) e cole no seu navegador.
+Agora, copie esse [endereço](http://localhost:5173/) e cole no seu navegador. Se não funcionar, atente-se ao número da porta (`5173`) se ele for diferente, sem problemas, você deverá acessar a rota com o numero disposto no terminal.
+> Continue lendo abaixo para entender como funciona o fluxo do sistema. Neste momento, se tudo deu certo, você deve estar se deparando com uma tela de Login.
 
 > **Nota**: O terminal do **Backend deve continuar rodando** enquanto a aplicação estiver em uso.
 
@@ -68,12 +71,13 @@ Agora, copie esse [endereço](http://localhost:5173/) e cole no seu navegador.
 
 ## Testando a Aplicação
 
-1. Aguarde a página carregar.
-2. Clique em **LOGIN** (não é necessário inserir usuário e senha, pois não foi implementada autenticação).
+1. Aguarde a página carregar (se necessário).
+2. Clique em **LOGIN** (não é necessário inserir usuário e senha, pois não há autenticação).
 3. Você verá a listagem contendo **duas empresas**.
 4. Para cadastrar uma nova empresa:
    - Clique no botão **CADASTRAR** no lado direito da tela.
    - O sistema valida **CNPJs reais**, então utilize um CNPJ válido.
+   - Se quiser, pode também deletar o registro de uma empresa clicando no icone de lixeira.
 5. Se o cadastro for bem-sucedido:
    - Um alerta de sucesso aparecerá.
    - Ao clicar em **OK**, você será redirecionado para a tela de listagem novamente.
